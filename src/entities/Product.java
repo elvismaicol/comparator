@@ -36,6 +36,6 @@ public class Product implements Comparable<Product> {
     
     @Override
     public int compareTo(Product p) {
-        return name.toUpperCase().compareTo(p.getName().toUpperCase());
+        return name.toUpperCase().compareTo(p.getName().toUpperCase());   
     }
 }
